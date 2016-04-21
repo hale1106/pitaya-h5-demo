@@ -1,0 +1,1 @@
+var Main=function(){};Main.prototype={constructor:"Main",init:function(){}};

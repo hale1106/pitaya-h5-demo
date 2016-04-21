@@ -1,0 +1,1 @@
+!function(){var n=new ImageLoad,e=[],a=$("#loading"),i=null;$(document.body).find("img").each(function(){e.push($(this).attr("src"))}),n.queueImage(e).queueImage(loadImgArr).preLoad(function(n){a.find(".progress span").html(n+"%"),a.find(".progress_bar span").css({width:n+"%"})},function(){a[0]&&a.remove(),i=(new Main).init(),this.loadImages()})}();
