@@ -1636,7 +1636,7 @@ window.$ === undefined && (window.$ = Zepto)
             webview = !chrome && ua.match(/(iPhone|iPod|iPad).*AppleWebKit(?!.*Safari)/),
             safari = webview || ua.match(/Version\/([\d.]+)([^S](Safari)|[^M]*(Mobile)[^S]*(Safari))/)
 
-        // Todo: clean this up with a better OS/browser seperation:
+        // Todo: clean this up with a better OS/browser separation:
         // - discern (more) between multiple browsers on android
         // - decide if kindle fire in silk mode is android or not
         // - Firefox on Android doesn't specify the Android version
